@@ -1,0 +1,72 @@
+<HTML>
+    <head>
+        <title>STUDENT REGISTRATION FORM</title>
+        <style>
+            body{
+                background-color: lightblue;
+                align-items: center;
+            }
+           
+            .abc{
+                background-color: yellow;
+                width: 600px;
+                padding: 20px;
+                margin: 250px;
+                margin-left: 500px;
+                border: solid black 10px;
+
+            }
+
+            button{
+                background-color: aqua;
+                color: black;
+                padding: 10px;
+                margin-left: 100px;
+                cursor: pointer;
+            }
+
+            button:hover{
+                color: black;
+                background-color: rgb(255,0,0);
+            }
+
+            input:hover{
+                padding: 100px;
+            }
+
+        
+
+        </style>
+    </head>
+    <body>
+        <div class="abc">
+            
+        <h1>Student registration form</h1><hr>
+
+            <form>
+               <b> Enter your first name:</b>
+                <input type="text" style="border-radius: 7px;  " ><BR><br>
+                Enter your last name:
+                <input type="text" style="border-radius: 7px;"><BR><br>
+                Enter D.O.B. :
+                <input type="date" style="border-radius: 7px; "><br><br>
+                Enter your email :
+                <input type="email" id="email" name="email" style="border-radius: 7px; box-sizing: border-box;"><br><br>
+                Enter Gender:
+                <input type="radio" id="male" name="gender" value="male">Male
+                <input type="radio" id="female" name="gender" value="female">Female<br><br>
+
+                Enter your hobby :
+                <input type="checkbox" id="Singing" name="hobby" value="Singing">Singing
+                <input type="checkbox" id="Dancing" name="hobby" value="Dancing">Dancing
+                <input type="checkbox" id="Acting" name="hobby" value="Acting">Acting
+                <input type="checkbox" id="Listening" name="hobby" value="Listening">Listening<br><br>
+
+                <button type="submit" >Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+
+            </div>
+        
+    </body>
+</HTML>
